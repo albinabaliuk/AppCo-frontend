@@ -1,0 +1,64 @@
+$main-font: 'Montserrat', sans-serif;
+
+.mobileLogo {
+    img {
+        position: absolute;
+        top: 110px;
+        left: 70%;
+    }
+}
+
+.textContent {
+    max-width: 60%;
+    padding-top: 20px;
+}
+
+.curved {
+    background: #255D8B;
+    color: #fff;
+    font-family: $main-font;
+
+    svg {
+        display: block;
+    }
+
+    .headingText {
+        margin-top: 0;
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 49px;
+        margin-left: 130px;
+    }
+
+    .headingSmallText {
+        margin-left: 130px;
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 142%;
+    }
+
+    button {
+        margin-left: 130px;
+        margin-top: 50px;
+        width: max-content;
+        height: max-content;
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 142%;
+        padding: 15px 30px;
+        border-radius: 10px;
+        border: none;
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+    }
+}
+

@@ -1,0 +1,19 @@
+.statsFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background: #1C3B55;
+    color: #ffffff;
+    height:55px;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.statsFooter > div{
+    padding: 15px 100px;
+}
+

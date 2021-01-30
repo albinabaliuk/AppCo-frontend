@@ -1,0 +1,48 @@
+.navUser {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.navUserMain {
+  margin-top: 10px;
+  margin-left: 100px;
+  color: inherit;
+  text-decoration: inherit;
+
+  .a {
+    color: gray;
+    text-decoration: inherit;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+}
+
+.navUserStats {
+  margin-top: 10px;
+  color: inherit;
+  text-decoration: inherit;
+  margin-left: 8px;
+
+  .a {
+    color: gray;
+    text-decoration: inherit;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.navUserUser {
+  margin-top: 10px;
+  color: inherit;
+  text-decoration: inherit;
+  margin-left: 8px;
+
+  .a {
+    color: #286b9f;
+    text-decoration: inherit;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}

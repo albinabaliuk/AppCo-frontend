@@ -1,0 +1,1 @@
+import mobile from './mobile.png'import React from 'react'import './Header.scss'function Logo() {  return(    <>      <div className="mobileLogo">        <img src={mobile} alt="image of phone"/>      </div>    </>  )}export default Logo
